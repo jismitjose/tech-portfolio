@@ -12,6 +12,7 @@
   <title>
     Jismi T Jose | IT Programmer Analyst.
   </title>
+  <link rel="stylesheet" href="index.css" />
 
 </head>
 
@@ -21,6 +22,24 @@
 
   <header class="header" role="banner" id="top">
    
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
@@ -32,6 +51,7 @@
 
           </h3>
         </p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
   </header>
@@ -39,31 +59,50 @@
   <main role="main">
 
     <!-- ***** Work ***** -->
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+          <h3>To-Do Application</h3>
+            <p>Tech Stack: iOS, MVC, Swift, Firebase</strong></p>
+              <p>
+                An intuitive iOS app with a simple, clean UI for managing daily tasks. The app features authentication, task navigation, and backend integration with Firebase. Built to make task management simple and fun!
+              </p>
+              <div class="work__links">
+                <a href="https://github.com/jismitjose/SmartPark" target="_blank" class="link__text">
+                  View Source Code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/jismitjose/SmartPark" title="View Source Code" target="_blank">
+                </a>
+              </div>
+              <div>
 
-    <!-- ***** Clients ***** -->
-
+                <h3>SmartPark</h3>
+                <p>Tech Stack: C#, MVVM, Html, CSS, SQLite, Blazor Framework</strong></p>
+                  <p>
+                    An advanced parking management solution developed using Blazor and MVVM. This app helps urban spaces and commercial complexes efficiently manage parking spaces, keeping everything organized with SQLite for secure data storage.                  </p>
+              </div>
+              <div class="work__links">
+                <a href="https://github.com/jismitjose/SmartPark" target="_blank" class="link__text">
+                  View Source Code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/jismitjose/SmartPark" title="View Source Code" target="_blank">
+                </a>
+              </div>
+              
+        </div>
+      </div>
+    </section>
+    
     <!-- ***** About ***** -->
     <title>Round Corner Image</title>
-    <style>
-        .rounded-image {
-            border-radius: 50%; /* Makes the image round */
-            overflow: hidden; /* Hides overflowing content */
-            width: 200px; /* Adjust width as needed */
-            height: 200px; /* Adjust height as needed */
-        }
-        .rounded-image img {
-            width: 100%; /* Makes the image fill its container */
-            height: auto; /* Maintains aspect ratio */
-        }
-    </style>
+    
     <section class="about" id="about">
       <div class="row">
         <h2>About Me</h2>
-        <!-- <div class="about__content"> -->
           <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
             <p>
-              <div class="rounded-image">
+              <div class="rounded-image img">
                 <img src="./Images/jismi_pic.jpeg" alt="">
             </div>
               
@@ -76,18 +115,39 @@
               <br>
               🌟 My adaptability and drive to learn new technology differentiate me. I enjoy pushing the envelope of what's feasible and coming up with creative solutions that satisfy customers and my ability to combine knowledge of technology with creativity. I like turning concepts into well-designed, enduring applications that are easy to use.
             </p>
-            <!-- Provide a link to your resume -->
+            <!-- Link to the resume -->
             <a target="_blank" href="./resume/Jismi.Jose.pdf" class="btn">My Resume</a>
-          <!-- </div> -->
-
-          <!-- <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <!-- <img class="about__photo" src="./images/sharon.jpg" alt="" /> -->
-          <!-- </div> --> 
+          
         </div>
       </div>
     </section>
   </main>
+
+  <!-- ***** Skills ***** -->
+
+  <section class="skills" id="skills">
+    <div class="row">
+      <h2>Skills</h2>
+      <div class="skills__info">
+        <p>
+          <br>
+          Languages: Python, Java, Swift, JavaScript, PHP
+
+        </br>
+        <br>
+        Frameworks & Tools: Blazor, MVVM, Firebase
+
+        </br>
+        <br>
+        Database Management: MySQL, SQL Server, SQLite
+
+        </br>
+        <br>
+        Bonus Skills: Android Development, MS Office Suite
+      </p>
+      </div>
+    </div>
+  </section>
 
   <!-- ***** Contact ***** -->
 
@@ -97,11 +157,11 @@
       <div class="contact__info">
         <p>
           Looking for expert guidance on IT program management or need help optimizing your technical processes?
-Whether you're managing a complex IT project, need consultation on best practices, or simply have questions, feel free to reach out! I'm here to assist and will respond as soon as I can. 😊
+          Whether you're managing a complex IT project, need consultation on best practices, or simply have questions, feel free to reach out! I'm here to assist and will respond as soon as I can. 
 
-For a swift response, the best way to contact me is via email. Let's connect and discuss how I can support your IT program needs
+          <br>For a swift response, the best way to contact me is via email. Let's connect and discuss how I can support your IT program needs
         </p>
-        <!-- Replace the email with yours -->
+        <!-- Email and Phone -->
         <a href="mailto:sJismitjose23@gmail.com" class="btn">Jismitjose23@gmail.com</a>
         <a href="tel:+1 4387782846" class="btn">+1 4387782846</a>
 
